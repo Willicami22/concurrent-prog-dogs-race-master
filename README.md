@@ -47,8 +47,10 @@ Como se aprecia en la siguiente imagen, se espera a que todos los hilos finalice
 3.  Utilice un mecanismo de sincronización para garantizar que a dichas
     regiones críticas sólo acceda un hilo a la vez. Verifique los
     resultados.
-- A la región crítica encontrada en el punto anterior, la bloqueamos con el metodo synchronized() seleccionando unicamente lo relacionado a la variable regl
-  ![FixedThreads](/img/media/img8.png)
+- A la región crítica encontrada en el punto anterior, la bloqueamos con el metodo synchronized() seleccionando unicamente lo relacionado a la variable regl  
+
+  
+![FixedThreads](/img/media/img8.png)
   ![FixedThreads2](/img/media/img9.png)
 
 4.  Implemente las funcionalidades de pausa y continuar. Con estas,
